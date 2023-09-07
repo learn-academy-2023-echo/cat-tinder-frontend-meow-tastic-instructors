@@ -1,9 +1,17 @@
 import React from "react"
+import { useParams } from "react-router-dom"
 
-const CatShow = () => {
+const CatShow = ({cats}) => {
+  const {id} = useParams()
+
+  let selectedCat = cats.find(cat => cat.id === +id)
+  
   return (
     <>
-      <h3>I am the show page</h3>
+      <img 
+      alt={`profile pic of ${selectedCat.name}`}
+      src= {selectedCat.image}/>
+    <h3> {selectedCat.name} likes {selectedCat.enjoys}</h3>
     </>
   )
 }
