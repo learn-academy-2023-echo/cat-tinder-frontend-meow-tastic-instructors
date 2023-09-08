@@ -28,3 +28,15 @@ Create a test folder in src:
   - `Footer.test.js`
   - `Home.test.js`
   - `NotFound.test.js`
+
+# Create Functionality
+
+# RESTful Routes
+- create
+- index
+- show
+- new: displays a form
+- edit: displays a form
+- update
+- destroy
+
