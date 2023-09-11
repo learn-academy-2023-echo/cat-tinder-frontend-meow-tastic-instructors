@@ -40,3 +40,17 @@ Create a test folder in src:
 - update
 - destroy
 
+
+# Fetch
+https://javascript.info/promise-basics
+- Fetch is a method in JavaScript that makes asynchronous requests
+- JavaScript is single threaded
+- Asynchronous allows us to multitask
+
+- Fetch returns a promise:
+  - pending 
+  - fulfilled
+  - rejected
+- Promises are JavaScript objects
+- If a promise is fulfilled - payload (JSON)
+
